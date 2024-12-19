@@ -40,7 +40,7 @@ HoldRodCastDuration := 1000
 WaitForBobberDelay := 1000
 
 ; Set this to your navigation key, IMPORTANT
-NavigationKey := "ň"
+NavigationKey := "/"
 
 ;     SHAKE SETTINGS     ====================================================================================================;
 
@@ -122,13 +122,13 @@ if (AutoEnableCameraMode != true and AutoEnableCameraMode != false)
 	exitapp
 	}
 	
-if (AutoZoomInCamera != true and AutoZoomInCamera != false)
+if (AutoZoomInCamera != false and AutoZoomInCamera != false)
 	{
 	msgbox, AutoZoomInCamera must be set to true or false! (check your spelling)
 	exitapp
 	}
 	
-if (AutoLookDownCamera != true and AutoLookDownCamera != false)
+if (AutoLookDownCamera != false and AutoLookDownCamera != false)
 	{
 	msgbox, AutoLookDownCamera must be set to true or false! (check your spelling)
 	exitapp
